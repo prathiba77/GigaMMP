@@ -32,7 +32,7 @@ public class ScheduleAppointmentPage
 		   driver.switchTo().frame(frame);
 		   driver.findElement(By.xpath("//input[@id='datepicker']")).click();
 			
-			String dateofAppointment = Utility.selectFutureDate(20);
+			String dateofAppointment = Utility.selectFutureDate(30);
 			
 			
 			String[] date = dateofAppointment.split("/");
