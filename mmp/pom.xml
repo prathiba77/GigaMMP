@@ -60,7 +60,7 @@
 				<plugin>
 					<artifactId>maven-compiler-plugin</artifactId>
 					<version>3.8.1</version>
-					<configuration>
+					<configuration>					
 						<verbose>true</verbose>
 						<fork>true</fork>
 						<executable>C:\Program Files\Java\jdk1.8.0_291\bin\javac</executable>
