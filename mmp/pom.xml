@@ -56,14 +56,14 @@
 	<build>
 		<pluginManagement>
 			<plugins>
-
 				<plugin>
 					<artifactId>maven-compiler-plugin</artifactId>
 					<version>3.8.1</version>
-					<configuration>					
+					<configuration>
+					<release>1.8</release>										
 						<verbose>true</verbose>
 						<fork>true</fork>
-						<executable>C:\Program Files\Java\jdk1.8.0_291\bin\javac</executable>
+						<executable>${JAVA_HOME}\bin\javac</executable>
 						<compilerVersion>1.3</compilerVersion>
 					</configuration>
 				</plugin>
@@ -76,7 +76,6 @@
 						</suiteXmlFiles>
 					</configuration>
 				</plugin>
-
 			</plugins>
 		</pluginManagement>
 	</build>
